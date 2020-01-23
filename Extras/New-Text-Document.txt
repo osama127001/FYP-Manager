@@ -1,0 +1,95 @@
+-- Faculty Login
+ALTER PROCEDURE sp_Faculty_Login (@F_Email nvarchar(50), @F_Pass nvarchar(50), @id INT output, @Disc nvarchar(3) output, @Desig nvarchar(20) output, @param INT output)
+AS 
+BEGIN
+	BEGIN TRY
+		DECLARE @idd INT, @Discc nvarchar(3), @Desigg nvarchar(20)
+		SELECT @idd = Faculty_ID, @Discc = Faculty_Discipline, @Desigg = Faculty_Designation FROM tbl_Faculty WHERE Faculty_Email = @F_Email
+			   AND Faculty_Password = @F_Pass;
+		IF ((@Desigg <>  'Lab Engineer') AND (@Desigg is NOT NULL) AND (@idd is NOT NULL) AND (@Discc is NOT NULL))
+		BEGIN
+			print('Login Successful');
+			SET @id = @idd;
+			SET @Desig = @Desigg;
+			SET @Disc = @Discc;
+			SET @param = 1;
+		END
+		ELSE
+			Raiserror('Cannot Login',16,1);
+			SET @param = 0;
+			return;
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(),ERROR_MESSAGE(),ERROR_PROCEDURE();
+	END CATCH
+END
+
+-- Student Login
+ALTER PROCEDURE sp_Student_Login (@S_Email nvarchar(50), @S_Pass nvarchar(50), @reg INT output, @Deg nvarchar(10) output, @Disc nvarchar(3) output, @param INT output)
+AS 
+BEGIN
+	BEGIN TRY
+		DECLARE @regg INT, @Discc nvarchar(3), @Degg nvarchar(10);
+		SELECT @regg = Student_RegNo, @Discc = Student_Discipline, @Degg = Student_Degree FROM tbl_Student WHERE Student_Email = @S_Email AND Student_Password = @S_Pass;
+
+		IF (@Degg = 'DE-37' AND (@regg is NOT NULL) AND (@Discc is NOT NULL))
+		BEGIN	
+			print('Login Successfull');
+			SET @reg = @regg;
+			SET @Deg = @Degg;
+			SET @Disc = @Discc;
+			SET @param = 1;
+		END
+		ELSE
+		BEGIN
+			Raiserror('Cannot Login', 16,1);
+			SET @param = 0;
+		END
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(),ERROR_MESSAGE(),ERROR_PROCEDURE();
+	END CATCH
+END
+
+
+-- Faculty Deletes his Unassigned Project
+ALTER PROCEDURE sp_Faculty_Delete_Project (@F_ID INT, @P_ID INT, @param INT output)
+AS 
+BEGIN
+	BEGIN TRY
+		IF (EXISTS (SELECT tbl_Project.Project_ID, tbl_Project.Project_Name FROM tbl_Faculty INNER JOIN tbl_Project ON tbl_Faculty.Faculty_ID
+		= tbl_Project.Faculty_ID INNER JOIN tbl_Unassigned_Project ON tbl_Project.Project_ID = tbl_Unassigned_Project.U_Project_ID WHERE 
+		tbl_Faculty.Faculty_ID = @F_ID AND tbl_Unassigned_Project.U_Project_ID = @P_ID))
+
+		BEGIN
+			DELETE FROM tbl_Unassigned_Project WHERE U_Project_ID = @P_ID;
+			DELETE FROM tbl_Project WHERE Project_ID = @P_ID;
+			print('Deleted');
+			SET @param = 1;	
+		END
+
+		ELSE 
+		BEGIN
+			print('Cannot Delete');
+			SET @param = 0;
+		END
+
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(),ERROR_MESSAGE(),ERROR_PROCEDURE();
+	END CATCH
+END
+
+
+
+
+CREATE PROCEDURE sp_Student_See_Tasks (@P_ID INT)
+AS
+BEGIN
+	BEGIN TRY
+		SELECT * FROM tbl_Tasks WHERE A_Project_ID = @P_ID;
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(),ERROR_MESSAGE(),ERROR_PROCEDURE();
+	END CATCH
+END

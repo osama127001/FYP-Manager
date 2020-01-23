@@ -1,0 +1,119 @@
+
+
+
+
+Header to include for connection:
+====================================
+using.system.data.Sqlclient
+
+
+
+SQL Connection Code:
+===========================
+SqlConnection Connection = new SqlConnection(@"Data Source=DESKTOP-DA331OV\SQLEXPRESS;Initial Catalog=FYP_ProjectDB;Integrated Security=True");
+
+
+Read:
+=======
+            Connection.Open();
+            SqlCommand CMD = new SqlCommand("sp_Faculty_See_His_Unassigned_Project", Connection);
+            CMD.Parameters.AddWithValue("@F_ID", SqlDbType.Int).Value = 1;
+            CMD.CommandType = CommandType.StoredProcedure;
+            DataTable DT = new DataTable();
+            DT.Load(CMD.ExecuteReader());
+            dataGridView_1.DataSource = DT;
+            Connection.Close();
+
+
+Write:
+========
+            try
+            {
+                Connection.Open();
+                SqlCommand CMD = new SqlCommand("sp_Faculty_Add_Project", Connection);
+                CMD.CommandType = CommandType.StoredProcedure;
+                CMD.Parameters.AddWithValue("@P_Name", SqlDbType.VarChar).Value = textBox1.Text.Trim();
+                CMD.Parameters.AddWithValue("@P_Details", SqlDbType.VarChar).Value = textBox2.Text.Trim();
+                CMD.Parameters.AddWithValue("@F_ID", SqlDbType.Int).Value = 1;
+                CMD.ExecuteNonQuery();
+                MessageBox.Show("Project Successfully Added to Unassigned Projects.");
+                Connection.Close();
+            }
+            catch(Exception Exp)
+            {
+                MessageBox.Show("Project not Added due to the Error: " + Exp.Message);
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    int TeacherID = -1;
+            String TeacherDiscipline = "NULL";
+            String TeacherDesignation = "NULL";
+            String T_Name = "NULL";
+            String Email = textBox1.Text.Trim();
+            String Password = textBox2.Text.Trim();
+            //try
+            //{
+                Connection.Open();
+                SqlCommand CMD = new SqlCommand("sp_Faculty_Login", Connection);
+                CMD.CommandType = CommandType.StoredProcedure;
+                CMD.Parameters.AddWithValue("@F_Email", SqlDbType.VarChar).Value = textBox1.Text.Trim();
+                CMD.Parameters.AddWithValue("@F_Pass", SqlDbType.VarChar).Value = textBox2.Text.Trim();
+
+                CMD.Parameters.AddWithValue("@id", SqlDbType.Int).Direction = ParameterDirection.Output;
+                CMD.Parameters.Add("@name", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                CMD.Parameters.Add("@Disc", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                CMD.Parameters.Add("@Desig", SqlDbType.VarChar).Direction = ParameterDirection.Output;
+                CMD.ExecuteNonQuery();
+
+                //TeacherID = int.Parse(CMD.Parameters["@id"].Value.ToString());
+                T_Name = CMD.Parameters["@name"].Value.ToString();
+                TeacherDiscipline = CMD.Parameters["@Disc"].Value.ToString();
+                TeacherDesignation = CMD.Parameters["@Desig"].Value.ToString();
+
+            
+            Connection.Close();
+
+                label4.Text = T_Name;
+                label5.Text = TeacherDesignation;
+            //}
+            //catch (Exception Exp)
+            //{
+            //    MessageBox.Show("Login Failed due to the Error: " + Exp.Message);
+            //    Connection.Close();
+            //}
+
+            if (TeacherID != -1 && TeacherDiscipline != "NULL" && TeacherDesignation != "NULL")
+            {
+                TeacherHomePage THomePage = new TeacherHomePage(TeacherID, T_Name, TeacherDiscipline, TeacherDesignation);
+                //this.Hide();
+                THomePage.Show();
+            }
+            else
+            {
+                MessageBox.Show("Login Failed! ");
+                textBox1.Clear();
+                textBox2.Clear();
+            }

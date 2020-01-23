@@ -1,0 +1,92 @@
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe.config
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.pdb
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csprojAssemblyReference.cache
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Form1.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Properties.Resources.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csproj.GenerateResource.cache
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csproj.CoreCompileInputs.cache
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.exe
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.pdb
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.SelectionForm.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Teacherlogin.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentLogin.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.CreateProjectForm.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.TeacherHomePage.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewUnassignedProjects.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewAssignedProjects.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteProject.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewMyProjects.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewDepartmentProjects.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultAddStudent.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.AddGroupMember.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Delete_Member.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyAddTask.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteTask.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentHomePage.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewUnassignedProjects.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewMyProject.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Faculty_Chat.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Student_Chat.resources
+C:\Users\Osama\source\repos\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyViewTasks.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe.config
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.pdb
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csprojAssemblyReference.cache
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.AddGroupMember.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.CreateProjectForm.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Delete_Member.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteProject.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteTask.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultAddStudent.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyAddTask.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyViewTasks.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Faculty_Chat.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Form1.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentHomePage.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewMyProject.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewUnassignedProjects.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Student_Chat.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.TeacherHomePage.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Teacherlogin.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Properties.Resources.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.SelectionForm.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentLogin.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewAssignedProjects.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewDepartmentProjects.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewMyProjects.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewUnassignedProjects.resources
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csproj.GenerateResource.cache
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csproj.CoreCompileInputs.cache
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.exe
+D:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.pdb
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe.config
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.exe
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\bin\Debug\FYP_Manager.pdb
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csprojAssemblyReference.cache
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.AddGroupMember.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.CreateProjectForm.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Delete_Member.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteProject.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.DeleteTask.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultAddStudent.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyAddTask.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.FacultyViewTasks.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Faculty_Chat.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Form1.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentHomePage.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewMyProject.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentViewUnassignedProjects.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Student_Chat.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.TeacherHomePage.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Teacherlogin.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.Properties.Resources.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.SelectionForm.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.StudentLogin.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewAssignedProjects.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewDepartmentProjects.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewMyProjects.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.ViewUnassignedProjects.resources
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.csproj.GenerateResource.cache
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.exe
+E:\EME\Semester 5\Database Engineering\Database Engineering Project\Application\FYP_Manager\FYP_Manager\obj\Debug\FYP_Manager.pdb

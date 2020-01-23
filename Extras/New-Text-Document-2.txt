@@ -1,0 +1,16 @@
+CREATE PROCEDURE sp_Faculty_See_Tasks (@F_ID INT, @P_ID INT)
+AS
+BEGIN
+	BEGIN TRY
+		IF (EXISTS (SELECT tbl_Assigned_Project.A_Project_ID FROM tbl_Assigned_Project INNER JOIN tbl_Project ON tbl_Assigned_Project.A_Project_ID
+		= tbl_Project.Project_ID INNER JOIN tbl_Faculty ON tbl_Project.Faculty_ID = tbl_Faculty.Faculty_ID WHERE tbl_Faculty.Faculty_ID = @F_ID
+		AND tbl_Assigned_Project.A_Project_ID = @P_ID))
+
+		BEGIN
+		SELECT * FROM tbl_Tasks WHERE A_Project_ID = @P_ID;
+		END
+	END TRY
+	BEGIN CATCH
+		SELECT ERROR_LINE(),ERROR_MESSAGE(),ERROR_PROCEDURE();
+	END CATCH
+END
